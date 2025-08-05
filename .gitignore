@@ -1,0 +1,55 @@
+# ===================================================
+# Bioinformatics Project Git Ignore Template (RNA-seq)
+# ===================================================
+
+# --- Nextflow specific ----
+.nextflow*
+results/
+*.gz
+*.txt
+fastqc/
+*.html
+*.zip
+alignments/
+*.bam
+trimmed_reads/
+*.gz
+F_counts/
+*.txt
+# --- Logs ---
+*.log
+*.err
+*.out
+
+# --- Intermediate/genomic index files ---
+cca_index*
+*.bt2
+*.fai
+*.dict
+*.tbi
+# --- FASTA/Reference ---
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+
+# --- GFF/GTF/Annotation ---
+*.gff
+*.gff3
+*.gtf
+
+# --- Python/R cache ---
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+
+# --- OS/system files ---
+.DS_Store
+Thumbs.db
+
+# --- Others ---
+*.zip
+*.tar.gz
+*.tmp
+*.txt

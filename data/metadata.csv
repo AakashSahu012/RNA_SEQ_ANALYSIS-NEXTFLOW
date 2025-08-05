@@ -1,0 +1,10 @@
+Sample,Tissue,DAA,Condition
+SRR4341972,Embryo,0,Embryo_00
+SRR4341973,Seed,5,Seed_5
+SRR4341974,Seed,10,Seed_10
+SRR4341975,Seed,20,Seed_20
+SRR4341976,Seed,30,Seed_30
+SRR4341977,PodWall,5,PodWall_5
+SRR4341978,PodWall,10,PodWall_10
+SRR4341979,PodWall,20,PodWall_20
+SRR4341980,PodWall,30,PodWall_30
